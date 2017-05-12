@@ -1,0 +1,97 @@
+
+body, p, li, ul, nav, header, footer, h1, h2, h3 {
+  margin:0;
+  padding:0;
+font-family: 'Montserrat', sans-serif;
+}
+
+/*  ========= HEADER ======= */
+header {
+  display: flex;
+  justify-content: space-between;
+  width: 90%;
+  margin: 1em auto;
+  height: 3em;
+}
+header img {
+  height: 50px;
+}
+header ul{
+  list-style: none;
+  color: #282828;
+  display: flex;
+  justify-content: space-between;
+  width: 35%;
+}
+
+
+header h1{
+  font-size: 1.5em;
+  font-family: 'Libre Baskerville', serif;
+}
+header a{
+  text-decoration: none;
+  color: #282828;
+  font-size: .8em;
+  font-weight: 300;
+}
+header a:hover {
+  font-weight: 500;
+}
+#heroImage {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+/* =========== SLIDESHOW =========== */
+#carousel {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 80%;
+  margin: 0 auto;
+}
+
+.diy-slideshow{
+  position: relative;
+  display: block;
+  overflow: hidden;
+  width: 60vw;
+}
+.bigFlex {
+  display: flex;
+  justify-content: center;
+}
+figure{
+  position: absolute;
+  opacity: 0;
+  transition: 1s opacity;
+
+}
+figcaption{
+  position: absolute;
+  font-family: sans-serif;
+  font-size: .8em;
+  bottom: .75em;
+  right: .35em;
+  padding: .25em;
+  color: #808080;
+}
+
+figure.show{
+  opacity: 1;
+  position: static;
+  transition: 1s opacity;
+}
+.next, .prev{
+  color: #e6e6e6;
+  font-size: 5em;
+  opacity: 0.7;
+  font-weight: lighter;
+}
+.next:hover, .prev:hover{
+  cursor: pointer;
+  opacity: 1;
+}
