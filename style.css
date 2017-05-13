@@ -126,3 +126,35 @@ figure.show{
   cursor: pointer;
   opacity: 1;
 }
+
+/* ==== ABOUT THE ARTIST ==== */
+
+#about {
+  width: 80%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  padding-top: 2em;
+}
+#jillPortrait {
+  height: 100%;
+}
+#aboutAbout {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 60%;
+}
+h1 {
+  font-family: "Libre-Baskerville", serif;
+  font-size: 1em;
+  letter-spacing: 0.4em;
+  margin-bottom: 1.5em;
+}
+#aboutText {
+  font-weight: 200;
+  opacity: 0.5;
+  font-family: "Open-Sans", sans-serif;
+  letter-spacing: 0.03em;
+}

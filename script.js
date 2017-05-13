@@ -4,11 +4,11 @@ var counter = 0,
     items = document.querySelectorAll('.diySlideshow figure'), // a collection of all of the slides, caching for performance
     numItems = items.length; // total number of slides
 
-// this function is what cycles the slides, showing the next or previous slide and hiding all the others
+// showCurrent is how we cycle the slides, showing next or previous slide while **hiding all the others
 var showCurrent = function(){
-  var itemToShow = Math.abs(counter%numItems);// uses remainder (aka modulo) operator to get the actual index of the element to show
+  var itemToShow = Math.abs(counter%numItems);// use modulo operator to get actual index of the element to show
 
-  // remove .show from whichever element currently has it
+  // remove .show class from whichever element currently holds that designation
   // http://stackoverflow.com/a/16053538/2006057
   [].forEach.call( items, function(el){
     el.classList.remove('show');
@@ -24,7 +24,7 @@ document.querySelector('.next').addEventListener('click', function() {
      showCurrent();
   }, false);
 
-document.querySelector('.prev').addEventListener('click', function() {
+document.querySelector('.previous').addEventListener('click', function() {
      counter--;
      showCurrent();
   }, false);
