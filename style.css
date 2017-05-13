@@ -133,11 +133,12 @@ figure.show{
   width: 80%;
   margin: 0 auto;
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   padding-top: 2em;
 }
 #jillPortrait {
   height: 100%;
+
 }
 #aboutAbout {
   display: flex;
@@ -148,9 +149,9 @@ figure.show{
 }
 h1 {
   font-family: "Libre-Baskerville", serif;
-  font-size: 1em;
+  font-size: 1.2em;
   letter-spacing: 0.4em;
-  margin-bottom: 1.5em;
+  margin: .5em 0 1.5em 0;
 }
 #aboutText {
   font-weight: 200;
