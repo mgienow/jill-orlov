@@ -3,7 +3,7 @@
   <head>
     <title>Jill Orlov | Custom Furniture</title>
     <meta name="description" content="Jill Orlov | Custom Furniture">
-    <link id="favicon" rel="icon" href="assets/favicon.ico" type="image/x-icon">
+    <link rel="icon" href="assets/favicon.ico" type="image/x-icon">
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -13,12 +13,26 @@
   <body>
     <header>
           <img src="assets/logo-wire-brushed.jpg" />
-            <ul>
-              <li><a href="myBooks.html">PORTFOLIO</a></li>
-              <li><a href="#">SHOWS &amp; NEWS</a></li>
-              <li><a href="/about.html">ABOUT THE ARTIST</a></li>
-              <li><a href="contact.html">CONTACT</a></li>
-            </ul>
+          <wrapper class="dropdown" >
+           <div class="linkFlex">
+              <a href="#">PORTFOLIO</a>
+                <div class="dropdown-content">
+                  <a href="#">Link 1</a>
+                  <a href="#">Link 2</a>
+                  <a href="#">Link 3</a>
+               </div>
+            </div>
+            <div class="linkFlex">
+              <a class="dropbtn" href="#">SHOWS &amp; NEWS</a>
+                <div class="dropdown-content">
+                  <a href="#">Link 1</a>
+                  <a href="#">Link 2</a>
+                  <a href="#">Link 3</a>
+                 </div>
+            </div>
+            <div class="linkFlex"><a href="/about.html">ABOUT THE ARTIST</a></div>
+            <div class="linkFlex"><a href="contact.html">CONTACT</a></div>
+          </wrapper>
     </header>
   <main>
     <div id="carousel">
