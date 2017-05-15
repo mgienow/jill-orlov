@@ -27,12 +27,6 @@ header a:hover {
   font-weight: 700;
     color: #F15A24;
 }
-#heroImage {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 100%;
-}
 
 /* === DROPDOWN === */
 .dropbtn {
@@ -85,7 +79,7 @@ header a:hover {
   margin: 0 auto;
 }
 
-.diySlideshow{
+.minimalistSlideshow{
   position: relative;
   display: block;
   overflow: hidden;
