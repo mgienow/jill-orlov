@@ -127,14 +127,21 @@ figure.show{
 }
 /*  +++++ SECOND ROW +++ */
 #secondRow {
-  margin: 2em 0;
+  margin: 0 auto;
   display: flex;
   width: 90%;
-  margin: 0 auto;
+  padding-top: 3em;
+
 }
 #shows, #collections, #publicity {
   display: flex;
   flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#collections {
+  background-color: rgba(13,134,191, 0.25);
 }
 /* ==== ABOUT THE ARTIST ==== */
 
@@ -172,4 +179,53 @@ h1 {
   display: flex;
   width: 70%;
   justify-content: space-between;
+}
+
+/*   ====== FOOTER ======== */
+#design {
+  display: flex;
+  justify-content: center;
+}
+footer a{
+  color: #FC963D;
+}
+footer {
+  height: 1.6em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+footer p{
+  padding: 0 !important;
+  color: gray;
+  font-size: smaller;
+  opacity: 0.8;
+  display: flex;
+  justify-content: center;
+  font-family: 'Roboto', Arial, sans-serif;
+}
+footer p:nth-child(2) {
+  justify-content: flex-start;
+  margin-left: 5px;
+}
+
+@media (max-width: 28em){
+
+  footer{
+    flex-direction: column;
+    padding: 0.5em 0;
+  }
+  footer p{
+    justify-content: center !important;
+    align-items: center !important;
+    margin: 0;
+  }
+
+}
+
+@media (min-width: 29em){
+  #nopipe::after {
+    content: "|";
+    padding-left: 5px;
+  }
 }
