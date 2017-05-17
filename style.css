@@ -9,8 +9,9 @@ font-family: 'Montserrat', sans-serif;
 header {
   display: flex;
   justify-content: space-between;
+  align-items: center;
   width: 90%;
-  margin: 1em auto;
+  margin: 1em auto 0 auto;
   height: 3em;
 }
 header img {
@@ -90,6 +91,9 @@ header a:hover {
   display: flex;
   justify-content: center;
 }
+.bigFlex img {
+  height: 28em;
+}
 figure{
   position: absolute;
   opacity: 0;
@@ -121,7 +125,17 @@ figure.show{
   cursor: pointer;
   opacity: 1;
 }
-
+/*  +++++ SECOND ROW +++ */
+#secondRow {
+  margin: 2em 0;
+  display: flex;
+  width: 90%;
+  margin: 0 auto;
+}
+#shows, #collections, #publicity {
+  display: flex;
+  flex-direction: column;
+}
 /* ==== ABOUT THE ARTIST ==== */
 
 #about {
