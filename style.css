@@ -59,6 +59,7 @@ header a:hover {
     flex-direction: column;
     justify-content: space-around;
     height: 8em;
+    padding: 0 1em;
 }
 
 /* Links inside the dropdown */
@@ -125,7 +126,7 @@ figure.show{
   cursor: pointer;
   opacity: 1;
 }
-/*  +++++ SECOND ROW +++ */
+/*  +++++ SECOND ROW +++
 #secondRow {
   margin: 0 auto;
   display: flex;
@@ -140,8 +141,37 @@ figure.show{
   align-items: center;
 }
 
-#collections {
+/*#collections {
   background-color: rgba(13,134,191, 0.25);
+}*/
+
+#secondRow {
+  display: grid;
+  grid-template-columns: 32% 1.5% 32% 1.5% 32% 1%;
+  grid-template-rows: auto 2em auto;
+  width: 90%;
+  margin: 2em auto;
+}
+#collections, #shows, #publicity {
+  display: flex;
+flex-direction: column;
+justify-content: space-between;
+align-items: center;
+}
+#collections {
+   grid-column: 1 / 2;
+    grid-row: 1 / 2;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+#shows {
+   grid-column: 3 / 4;
+    grid-row: 1 / 2;
+}
+#publicity {
+   grid-column: 5 / 6;
+    grid-row: 1 / 2;
 }
 /* ==== ABOUT THE ARTIST ==== */
 
@@ -162,7 +192,7 @@ figure.show{
   justify-content: space-between;
   align-items: center;
   width: 60%;
-  height: 40em;
+  min-height: 45em;
 }
 h1 {
   font-family: "Libre-Baskerville", serif;
@@ -175,14 +205,9 @@ h1 {
   font-family: "Open-Sans", sans-serif;
   letter-spacing: 0.03em;
 }
-#jillWorks {
-  display: flex;
-  width: 70%;
-  justify-content: space-between;
-}
 
 /*   ====== FOOTER ======== */
-#design {
+#designedBy {
   display: flex;
   justify-content: center;
 }
@@ -190,10 +215,12 @@ footer a{
   color: #FC963D;
 }
 footer {
-  height: 1.6em;
+  height: 4em;
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
+  width: 90%;
+  margin: 0 auto;
 }
 footer p{
   padding: 0 !important;
