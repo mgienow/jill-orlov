@@ -126,12 +126,34 @@ figure.show{
   cursor: pointer;
   opacity: 1;
 }
-/*  +++++ SECOND ROW +++
+
+hr.divider {
+	border-top: 1px solid #8c8b8b;
+  border-bottom: none;
+  border-left: none;
+  border-right: none;
+	text-align: center;
+  width: 60%;
+  margin-top: 1.5em;
+}
+hr.divider:after {
+	content: '§';
+	display: inline-block;
+	position: relative;
+	top: -14px;
+	padding: 0 10px;
+	background: #fff;
+	color: #8c8b8b;
+	font-size: 18px;
+
+	transform: rotate(60deg);
+}
+/*  +++++ SECOND ROW +++ */
 #secondRow {
   margin: 0 auto;
   display: flex;
   width: 90%;
-  padding-top: 3em;
+  justify-content: space-between;
 
 }
 #shows, #collections, #publicity {
@@ -141,16 +163,12 @@ figure.show{
   align-items: center;
 }
 
-/*#collections {
-  background-color: rgba(13,134,191, 0.25);
-}*/
-
-#secondRow {
+/*#secondRow {
   display: grid;
   grid-template-columns: 32% 1.5% 32% 1.5% 32% 1%;
   grid-template-rows: auto 2em auto;
   width: 90%;
-  margin: 2em auto;
+  margin: 0 auto;
 }
 #collections, #shows, #publicity {
   display: flex;
@@ -172,6 +190,11 @@ align-items: center;
 #publicity {
    grid-column: 5 / 6;
     grid-row: 1 / 2;
+} */
+h2{
+  font-weight: lighter;
+  color: #282828;
+  margin: 2em 0 1em 0;
 }
 /* ==== ABOUT THE ARTIST ==== */
 
@@ -215,12 +238,13 @@ footer a{
   color: #FC963D;
 }
 footer {
-  height: 4em;
+  height: 3em;
   display: flex;
   justify-content: space-between;
   align-items: center;
   width: 90%;
   margin: 0 auto;
+  padding-top: 2em;
 }
 footer p{
   padding: 0 !important;
