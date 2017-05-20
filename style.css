@@ -33,7 +33,7 @@ header a:hover {
 .dropbtn {
     background-color: none;
     border: none;
-    cursor: pointer;
+    /*cursor: pointer;*/
 }
 
 /* The container <div> - needed to position the dropdown content */
@@ -123,7 +123,7 @@ figure.show{
   font-weight: lighter;
 }
 .next:hover, .previous:hover{
-  cursor: pointer;
+  /*cursor: pointer;*/
   opacity: 1;
 }
 
@@ -161,6 +161,10 @@ hr.divider:after {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+}
+#secondRow a{
+  /*cursor: pointer !important;*/
+  text-decoration: none;
 }
 
 /*#secondRow {
@@ -229,6 +233,40 @@ h1 {
   letter-spacing: 0.03em;
 }
 
+
+/*  ========= GALLERY TEMPLATE +++++++++++++ */
+
+
+.thumbnails img {
+	max-height: 9em;
+	margin-left: 1em;
+}
+
+.thumbnails img:hover {
+	cursor:pointer;
+}
+
+.preview img {
+	max-height: 40em;
+}
+
+.preview {
+
+}
+.thumbnails{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+
+}
+#gallery {
+  display: flex;
+  width: 90%;
+  justify-content: center;
+  margin: 2em auto;
+  max-height: 40em;
+}
+
 /*   ====== FOOTER ======== */
 #designedBy {
   display: flex;
@@ -247,7 +285,6 @@ footer {
   padding-top: 2em;
 }
 footer p{
-  padding: 0 !important;
   color: gray;
   font-size: smaller;
   opacity: 0.8;
