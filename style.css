@@ -285,30 +285,35 @@ h1 {
   opacity: 0.5;
   font-family: "Open-Sans", sans-serif;
   letter-spacing: 0.03em;
-  width: 90%;
-  margin: 0 auto;
+  width: 80%;
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
 }
 #infoBox {
-  border-right: 5px solid black;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
   max-width: 16em;
+  height: 12em;
+  margin-right: 1em;
 }
 #infoBox p{
   color: #F15A24;
   font-weight: bolder;
 }
+.boxStyle {
+  font-size: 0.75em;
+}
 #description {
   width: 30em;
   display: flex;
   flex-direction: column;
+  border-left: 5px solid black;
 }
 #description p{
   font-weight: lighter;
   font-size: 1em;
+  margin-left: 2em;
 }
 
 
