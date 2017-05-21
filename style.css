@@ -316,7 +316,22 @@ h1 {
   margin-left: 2em;
 }
 
+/* ============= COLLECTIONS ========== */
 
+#collectionsWrapper{
+  width: 90%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+}
+.collections {
+  width: 33%;
+  display: flex;
+  flex-direction: column;
+}
+.collections img {
+  width: 80%;
+}
 /*   ====== FOOTER ======== */
 #designedBy {
   display: flex;
