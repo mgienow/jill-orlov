@@ -322,15 +322,34 @@ h1 {
   width: 90%;
   margin: 0 auto;
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
+  align-items: flex-start;
 }
+
 .collections {
-  width: 33%;
+  display: flex;
+  flex-direction: column;
+  width: 30%;
+}
+.collections img {
+  height: 20em;
+}
+.collectionsText{
   display: flex;
   flex-direction: column;
 }
-.collections img {
-  width: 80%;
+.collections h2 {
+  font-weight:700;
+  color: #4d4d4d;
+
+}
+.collections h3 {
+  color: #F15A24;
+  opacity: .8;
+}
+.collections p{
+  color: gray;
+  font-weight: lighter;
 }
 /*   ====== FOOTER ======== */
 #designedBy {
