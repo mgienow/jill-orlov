@@ -252,8 +252,12 @@ h1 {
 	max-height: 40em;
 }
 
-.preview {
-
+.thumbnailsVert {
+  display: flex;
+}
+.thumbnailsVert img {
+  height: 6em;
+  margin-right: 1em;
 }
 .thumbnails{
   display: flex;
@@ -266,7 +270,14 @@ h1 {
   width: 90%;
   justify-content: center;
   margin: 2em auto;
-  max-height: 40em;
+  max-height: 30em;
+}
+#galleryVert {
+  display: flex;
+  flex-direction: column;
+  width: 90%;
+  max-height: 30em;
+  margin: 2em auto;
 }
    /* TEXT DESCRIPTION */
 #galleryTitle{
