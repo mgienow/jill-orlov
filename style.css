@@ -272,13 +272,7 @@ h1 {
   margin: 2em auto;
   max-height: 30em;
 }
-#galleryVert {
-  display: flex;
-  flex-direction: column;
-  width: 90%;
-  max-height: 30em;
-  margin: 2em auto;
-}
+
    /* TEXT DESCRIPTION */
 #galleryTitle{
   font-family: 'Montserrat', sans-serif;
@@ -317,7 +311,7 @@ h1 {
 .boxStyle {
   font-size: 0.75em;
 }
-#description {
+.description {
   width: 30em;
   display: flex;
   flex-direction: column;
@@ -328,7 +322,17 @@ h1 {
   font-size: 1em;
   margin-left: 2em;
 }
-
+/* ==== SIGNED FURNITURE ==== */
+#galleryVert {
+  display: flex;
+  flex-direction: column;
+}
+#signed h4{
+  margin-left: 4em;
+}
+.previewVert img{
+  max-height: 20em;
+}
 /* ============= COLLECTIONS ========== */
 
 #collectionsWrapper{
