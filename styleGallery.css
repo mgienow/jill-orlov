@@ -36,7 +36,7 @@
 }
 
    /* TEXT DESCRIPTION */
-#galleryTitle{
+.galleryTitle{
   margin: 2em auto;
   width: 90%;
   color: #383838;
@@ -57,7 +57,7 @@
   display: flex;
   justify-content: center;
 }
-#infoBox {
+.infoBox {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -65,7 +65,7 @@
   height: 12em;
   margin-right: 1em;
 }
-#infoBox p{
+.infoBox p{
   color: #F15A24;
   font-weight: bolder;
 }
@@ -88,22 +88,47 @@
   display: flex;
   flex-direction: column;
 }
-#signed h4{
-  margin-left: 4em;
+#signedTitle {
+	margin: 2em auto 0.5em auto;
+width: 90%;
+color: #383838;
 }
+
+
 .previewVert img{
   max-height: 20em;
 }
-
+.works {
+	display: flex;
+	justify-content: space-around;
+	width: 90%;
+	margin: 0 auto;
+}
 
 /* ==== SIGNED FURNITURE ==== */
 #galleryVert {
   display: flex;
   flex-direction: column;
 }
-#signed h4{
-  margin-left: 4em;
+
+.centerSquare {
+	display: flex;
+
 }
+.squareStyle {
+	display: inline-flex;
+	align-items: center;
+	color: #F15A24;
+}
+h5 {
+	font-weight: bolder;
+	font-size: 1.5em;
+  font-family: "Open-Sans", sans-serif;
+  letter-spacing: 0.08em;
+  width: 80%;
+	color: #F15A24;
+}
+
 .previewVert img{
   max-height: 20em;
 }
