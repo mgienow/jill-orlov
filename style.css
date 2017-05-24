@@ -95,7 +95,7 @@ header a:hover {
   justify-content: center;
 }
 .bigFlex img {
-  height: 28em;
+  height: 24em;
 }
 figure{
   position: absolute;
@@ -225,7 +225,7 @@ h2{
 }
 h1 {
   font-family: "Libre-Baskerville", serif;
-  font-size: 1.2em;
+  font-size: 1.25em;
   letter-spacing: 0.4em;
 }
 #aboutText {
@@ -349,7 +349,7 @@ h1 {
   width: 30%;
 }
 .collections img {
-  height: 20em;
+  height: 15em;
 }
 .collectionsText{
   display: flex;
@@ -358,11 +358,12 @@ h1 {
 .collections h2 {
   font-weight:700;
   color: #4d4d4d;
-
+  font-size: 1.25em;
 }
 .collections h3 {
   color: #F15A24;
   opacity: .8;
+  font-size: 1em;
 }
 .collections p{
   color: gray;
