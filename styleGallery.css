@@ -96,12 +96,11 @@
 width: 90%;
 color: #383838;
 }
-.descriptionSigned{
+#openText, #eatText{
 	color: gray;
 	display: flex;
 	flex-direction: column;
-	width: 35%;
-	justify-content: center;
+	align-items: center;
 }
 
 .previewVert img{
@@ -120,6 +119,10 @@ color: #383838;
 /* ==== SIGNED FURNITURE ==== */
 #eatCart, #openChest {
 	width: 35%;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	height: 57em;
 }
 #galleryVert {
   display: flex;
@@ -141,7 +144,16 @@ color: #383838;
 .privateCollection {
 	font-weight: 100;
 	font-style: italic;
-	padding-left: 7em;
+	text-align: center;
+	width: 25em;
+}
+.bottomBox {
+	display: flex;
+	flex-direction: column;
+	height: 10em;
+	justify-content: space-between;
+	align-items: center;
+	margin-top: 2em;
 }
 h5 {
 	margin: 1em 0 !important;
