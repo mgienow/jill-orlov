@@ -100,7 +100,8 @@ color: #383838;
 	color: gray;
 	display: flex;
 	flex-direction: column;
-	width: 22em;
+	width: 35%;
+	justify-content: center;
 }
 
 .previewVert img{
@@ -117,6 +118,9 @@ color: #383838;
 }
 
 /* ==== SIGNED FURNITURE ==== */
+#eatCart, #openChest {
+	width: 35%;
+}
 #galleryVert {
   display: flex;
   flex-direction: column;
@@ -124,6 +128,9 @@ color: #383838;
 
 .centerSquare {
 	display: flex;
+	width: 21em;
+}
+.centerSquare p{
 	width:
 }
 .squareStyle {
@@ -134,9 +141,10 @@ color: #383838;
 .privateCollection {
 	font-weight: 100;
 	font-style: italic;
+	padding-left: 7em;
 }
 h5 {
-
+	margin: 1em 0 !important;
 	font-size: 1.75em;
   font-family: "Open-Sans", sans-serif;
   letter-spacing: 0.08em;
