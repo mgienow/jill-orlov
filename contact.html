@@ -1,4 +1,5 @@
-<!DOCTYPE html>
+
+  <!DOCTYPE html>
 <html>
   <head>
     <title>Jill Orlov | Contact</title>
@@ -7,8 +8,7 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="styleGallery.css">
-    <link rel="stylesheet" href="style.css">
+   <link rel="stylesheet" href="/style.css">
     <link href="https://fonts.googleapis.com/css?family=Libre+Baskerville|Open+Sans" rel="stylesheet">
   </head>
   <body>
@@ -36,22 +36,53 @@
                  </div>
             </div>
             <div class="linkFlex"><a href="/about.html">ABOUT THE ARTIST</a></div>
-
           </wrapper>
     </header>
 
 
-<body>
+<div id="contactContainer">
 
-<div class="container">
+
   <div class="signedTitle">
-    <h1>&#9635 QUESTIONS? COMMENTS? COMMISSIONS?</h1>
-    <h4>Fill out the form below to get in touch with Jill, or email her directly at <span id="email"><a href="mailto:jillerica2@gmail.com?Subject=Hello%20from%20your%20website!" target="_top">jillerica2@gmail.com</a></span>.</h4>
+    <h1>&#9635 Questions? Comments? Commissions?&nbsp;</h1>
+    <h3>Fill out the form below to get in touch with Jill.</h3>
   </div>
 
+   <div class="contact">
+
+    <img src="assets/juliasKitchenTopBar.jpg">
+    <div id="contactBox">
+
+       <div id="nameBox">
+          <div id="firstName">
+           <label for="first_name">First name</label>
+            <input type="text" name="first_name" placeholder=" Jane" />
+           </div>
+
+         <div id="lastName">
+             <label for="last_name">Last name</label>
+            <input type="text" name="last_name" placeholder=" Smith" />
+         </div>
+        </div>
+
+         <div id="email">
+           <label for="email">Your Email <span class="req">*</span></label>
+           <input type="email" name="email" placeholder=" jane.smith@gmail.com" />
+          </div>
+
+        <div id="comments">
+            <label for="comments">Your thoughts go here: </label>
+            <textarea name="comments" ></textarea>
+        </div>
+
+        <div id="submit">
+          <button type="submit" value="Submit" > Submit </button>
+        </div>
+
+     </div>
+
+    </div>
   </div>
-
-
 
 </body>
 </html>
