@@ -136,27 +136,23 @@ figure.show{
   /*cursor: pointer;*/
   opacity: 1;
 }
-
+     /*   DIVIDER LINE  */
 hr.divider {
-	border-top: 1px solid #8c8b8b;
-  border-bottom: none;
-  border-left: none;
-  border-right: none;
-	text-align: center;
-  width: 60%;
-  margin-top: 1.5em;
+width: 60%;
 }
-hr.divider:after {
-	content: '§';
-	display: inline-block;
-	position: relative;
-	top: -14px;
-	padding: 0 10px;
-	background: #fff;
-	color: #8c8b8b;
-	font-size: 18px;
-
-	transform: rotate(60deg);
+.doodad {
+font-size: 1.25em;
+  text-align: center;
+  transform: rotate(60deg);
+  margin: -1.1em auto 0 auto;
+  background: #fff;
+  width: 2em;
+  color: gray;
+  padding-bottom: 0.15em;
+}
+#dividerFlex{
+display: flex;
+flex-direction: column;
 }
 /*  +++++ SECOND ROW +++ */
 #secondRow {
@@ -241,6 +237,7 @@ h1 {
   opacity: 0.5;
   font-family: "Open-Sans", sans-serif;
   letter-spacing: 0.03em;
+  padding: 1em 0;
 }
 
 /* ============= COLLECTIONS ========== */
