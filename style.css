@@ -30,9 +30,9 @@ header img {
 
 header a{
   text-decoration: none;
-  color: #282828;
+  color: gray;
   font-size: .8em;
-  font-weight: 300;
+  font-weight: 400;
 }
 header a:hover {
   font-weight: 700;
@@ -61,7 +61,7 @@ header a:hover {
     position: absolute;
     z-index: 1;
     min-width: 5em;
-    background-color: #fff;
+
 }
 /* Show dropdown menu on hover */
 .linkFlex:hover .dropdown-content {
@@ -82,7 +82,15 @@ header a:hover {
 .dropdown-content a:hover {
       color: #F15A24;
 }
-
+.subhed{
+  font-size: .8em;
+  color: gray;
+  font-weight: 600;
+  text-decoration: underline;
+}
+.subhedA {
+  margin-left: 1em;
+}
 /* =========== SLIDESHOW =========== */
 #carousel {
   display: flex;
