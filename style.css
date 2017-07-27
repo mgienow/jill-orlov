@@ -90,7 +90,7 @@ header a:hover {
   margin-left: 1em;
 }
 
-@media (max-width: 475px){
+@media (max-width: 750px){
 .dropdown {
   display: flex;
   flex-direction: column;
@@ -112,7 +112,7 @@ header a:hover {
   justify-content: space-around;
   align-items: center;
   width: 80%;
-  margin: 0 auto;
+  margin: 2em auto;
 }
 
 .minimalistSlideshow{
@@ -124,12 +124,9 @@ header a:hover {
 .bigFlex {
   display: flex;
   justify-content: center;
-  height: 20em;
+  
 }
-.bigFlex img {
-  height: auto;
-  max-width: 100%;
-}
+
 figure{
   position: absolute;
   opacity: 0;
@@ -142,7 +139,6 @@ figcaption{
   font-size: .8em;
   bottom: .75em;
   right: .35em;
-  padding: .25em;
   color: #808080;
 }
 
@@ -150,6 +146,9 @@ figure.show{
   opacity: 1;
   position: static;
   transition: 1s opacity;
+}
+figcaption {
+  transition: 1.5s opacity;
 }
 .next, .previous{
   color: #e6e6e6;
@@ -168,9 +167,8 @@ figure.show{
     height: 15em;
     margin-top: 2em;
   }
-  .bigFlex img {
-    max-width: 130%;
-    height: auto;
+  .bigFlex {
+  height: 15em;
   }
 }
      /*   DIVIDER LINE  */
