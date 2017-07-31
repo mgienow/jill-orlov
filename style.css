@@ -124,7 +124,7 @@ header a:hover {
 .bigFlex {
   display: flex;
   justify-content: center;
-  
+
 }
 
 figure{
@@ -161,14 +161,19 @@ figcaption {
   opacity: 1;
 }
 
-@media (max-width: 475px){
+@media (max-width: 555px){
   #carousel {
     width: 90%;
     height: 15em;
     margin-top: 2em;
   }
-  .bigFlex {
-  height: 15em;
+  .bigFlex img{
+  height: 12.5em !important;
+  }
+}
+@media (max-width: 800px){
+  .bigFlex img{
+  height: 16.5em;
   }
 }
      /*   DIVIDER LINE  */
