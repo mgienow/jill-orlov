@@ -370,7 +370,7 @@ footer p:nth-child(2) {
   margin-left: 5px;
 }
 
-@media (max-width: 28em){
+@media (max-width: 40em){
 
   footer{
     flex-direction: column;
@@ -380,15 +380,20 @@ footer p:nth-child(2) {
     justify-content: center !important;
     align-items: center !important;
     margin: 0;
+    font-size: 0.7em;
   }
-
+  #designedBy {
+    display: flex;
+    flex-direction: column;
+  }
 }
 
-@media (min-width: 29em){
+@media (min-width: 40em){
   #nopipe::after {
     content: "|";
     padding-left: 5px;
   }
+
 }
 
 /* ======= CONTACT ========= */
