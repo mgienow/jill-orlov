@@ -25,7 +25,7 @@ header {
   height: 3em;
 }
 header img {
-  height: 50px;
+  height: 3.5em;
 }
 
 header a{
@@ -38,7 +38,35 @@ header a:hover {
   font-weight: 700;
     color: #F15A24;
 }
-
+@media(min-width: 1500px){
+  header img {
+    height: 4em;
+  }
+  header {
+    height: 5em;
+  }
+  .dropdown {
+    font-size: 1.25em;
+  }
+  .imgResponsive {
+    width: 120% !important;
+  }
+  #secondRow {
+    width: 95%;
+    justify-content: space-around !important;
+  }
+  h2 {
+  font-size: 2em;
+  }
+}
+@media(min-width: 1248px){
+  .imgResponsive {
+    width: 105% !important;
+  }
+  header a {
+    font-size: 1em;
+  }
+}
 /* === DROPDOWN === */
 .dropbtn {
     background-color: none;
@@ -148,7 +176,7 @@ figure.show{
   transition: 1s opacity;
 }
 figcaption {
-  transition: 1.5s opacity;
+  transition: 1s opacity;
 }
 .next, .previous{
   color: #e6e6e6;
@@ -213,7 +241,7 @@ flex-direction: column;
   text-decoration: none;
 }
 .imgResponsive {
-  width: 100%;
+  width: 90%;
   height: auto;
 }
 
